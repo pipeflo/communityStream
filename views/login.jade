@@ -1,0 +1,11 @@
+extends layout
+
+block content
+	div.container
+		div.row
+			div.col-sm-6.col-md-4.col-md-offset-4
+				h1.text-center.login-title Inicia Sesion con Connections Cloud
+					a(href='auth/ibm-connections-cloud', class='text-center new-account') Login con Connections
+					#message
+					if message
+						h1.text-center.error-message #{message}

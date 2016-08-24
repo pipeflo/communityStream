@@ -1,0 +1,28 @@
+{
+  "name": "ConnectionsCloudApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "*",
+    "body-parser": "~1.0.0",
+    "connect-flash": "*",
+    "cookie-parser": "~1.0.1",
+    "debug": "~0.7.4",
+    "express": "~4.2.0",
+    "express-session": "~1.0.4",
+    "ibm-connections-profiles-service": "^1.0.3",
+    "jade": "~1.3.0",
+    "jsonwebtoken": "^7.0.0",
+    "morgan": "~1.0.0",
+    "passport": "~0.2.0",
+    "passport-ibm-connections-cloud": "^1.1.0",
+    "request": "^2.69.0",
+    "static-favicon": "~1.0.0",
+    "xmlreader" : "0.2.3",
+    "watson-developer-cloud": "1.9.4",
+    "remove-markdown" : "0.1.0"
+  }
+}
